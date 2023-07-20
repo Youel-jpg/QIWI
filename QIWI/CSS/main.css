@@ -1,0 +1,26 @@
+.page{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.page select{
+
+}
+
+.page h1{
+    font-size: 1em;
+}
+
+.page label{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.page div{
+    margin-top: 1rem;
+    padding: 10px;
+    border: solid 2px peru;
+    border-radius: 5px;
+    background: white;
+    width: 20rem;
+}
