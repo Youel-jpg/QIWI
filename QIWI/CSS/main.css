@@ -17,10 +17,30 @@
 }
 
 .page div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 1rem;
     padding: 10px;
     border: solid 2px peru;
     border-radius: 5px;
     background: white;
     width: 20rem;
+    height: 10rem;
+    z-index: 5;
+}
+
+.page .back{
+    content: ' ';
+    position: relative;
+    background-color: burlywood;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 5px;
+    border:0;
+    top:-11rem;
+    left:1rem;
+
+
+    z-index: -1 !important;
 }

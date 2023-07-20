@@ -58,7 +58,7 @@ fetch('https://www.cbr-xml-daily.ru/daily_json.js')
         document.querySelector('select').innerHTML += '<option value='+Valutes[obj].ID+'>'+Valutes[obj].ID+' - '+Valutes[obj].Name+'</option>\n';
     }
 
-    //обработчик смены валюты в селекторе
+    //обработчик смены валюты в селекторе, почему же ты не работаешь??? (т–т)
         document.getElementById('selector').addEventListener('onchange', function(){
             console.log(document.getElementsByTagName('select')[0].value);
             for(obj in Valutes){
